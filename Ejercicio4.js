@@ -8,7 +8,7 @@ let bandera = true; // variable Booleana
 while (bandera) { // Ciclo infinito
     // Tomamos el valor a retirar
     let retiro = prompt("Ingrese el valor a retirar");
-
+    
     // Validamos que el valor no supere el saldo
     if (retiro < saldo ) {
         // Aqui a saldo de le reduce retiro y se almacena nuevamente en saldo
