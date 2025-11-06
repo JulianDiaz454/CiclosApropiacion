@@ -7,7 +7,7 @@ for (let i = 1; i <= 5; i++) {
     let edad = prompt("Ingrese su edad");
 
     // Validamos si es mayor de edad
-    if (edad >= 10) {
+    if (edad >= 18) {
         alert(`Hola ${nombre}`)
     } 
 }
